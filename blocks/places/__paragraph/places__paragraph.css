@@ -1,0 +1,11 @@
+.places__paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.34px;
+    margin: 0;
+    outline: 1px solid red;
+}
+
+.places__paragraph:first-of-type {
+    margin-bottom: 27px;
+}

@@ -1,0 +1,7 @@
+.lead {
+    margin: 0 auto;
+    outline: 1px red solid;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+}

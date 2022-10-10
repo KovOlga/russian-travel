@@ -1,0 +1,5 @@
+.places__website {
+    outline: 1px solid red;
+    justify-self: start;
+    align-self: end;
+}
