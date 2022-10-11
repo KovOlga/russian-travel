@@ -1,8 +1,5 @@
 .lead__image-polka {
     object-fit: cover;
     object-position: center;
-    padding: 0 148px;
-    box-sizing: border-box;
-    width: 100%;
-    outline: 1px red solid;
+    max-width: 100%;
 }

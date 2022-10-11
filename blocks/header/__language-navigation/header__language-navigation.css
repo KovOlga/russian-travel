@@ -1,0 +1,5 @@
+.header__language-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}

@@ -3,9 +3,9 @@
     font-size: 18px;
     line-height: 29.34px;
     margin: 0;
-    outline: 1px solid red;
+    padding: 0;
 }
 
 .places__paragraph:first-of-type {
-    margin-bottom: 27px;
+    margin-bottom: 26px;
 }

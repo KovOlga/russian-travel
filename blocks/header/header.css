@@ -1,10 +1,28 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     width: 100%;
     padding: 0 48px;
     margin: 0 0 56px;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     box-sizing: border-box;
-    outline: 1px red solid;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        margin: 0 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 0 16px;
+    }
 }

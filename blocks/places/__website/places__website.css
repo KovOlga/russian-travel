@@ -1,5 +1,6 @@
 .places__website {
-    outline: 1px solid red;
-    justify-self: start;
-    align-self: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: flex-start;
 }
