@@ -1,10 +1,23 @@
 .places__item {
-    outline: 1px solid red;
+    width: 100%;
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: grid;
-    grid-template: repeat(2, min-content) / min-content 1fr;
+    /* grid-template: repeat(2, min-content) / 1fr 1fr; */
+    grid-template: repeat(2, min-content) / repeat(auto-fit, minmax(320px, 1fr));
     row-gap: 48px;
     column-gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 320px) {
+    .places__item {
+        /* grid-template: repeat(4, min-content) / repeat(1, min-content); */
+        column-gap: 0;
+        row-gap: 32px;
+    }
 }

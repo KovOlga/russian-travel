@@ -3,4 +3,17 @@
     font-size: 18px;
     line-height: 22px;
     color: white;
+    opacity: 1;
+    transition: opacity 0.3s linear;
 }
+
+.places__link:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 320px) {}

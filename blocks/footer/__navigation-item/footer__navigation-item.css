@@ -1,8 +1,15 @@
 .footer__navigation-item {
+    color: white;
+    text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    margin-right: 18px;
+    opacity: 1;
+    transition: opacity 0.3s linear;
+}
+
+.footer__navigation-item:hover {
+    opacity: 0.8;
 }
 
 .footer__navigation-item:last-of-type {

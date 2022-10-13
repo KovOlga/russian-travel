@@ -1,4 +1,24 @@
 .places__image {
     object-fit: cover;
     object-position: center;
+    max-width: 460px;
+    aspect-ratio: 1 / 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__image {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__image {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__image {
+        max-width: 320px;
+    }
 }

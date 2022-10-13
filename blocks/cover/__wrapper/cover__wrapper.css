@@ -1,0 +1,8 @@
+.cover__wrapper {
+    padding-top: 62.5%;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url('../../../images/cover-trains.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

@@ -1,3 +1,9 @@
+.footer__navigation {
+    display: grid;
+    grid-template: repeat(1, max-content) / repeat(5, min-content);
+    column-gap: 18px;
+}
+
 @media screen and (max-width: 320px) {
     .footer__navigation {
         display: flex;
