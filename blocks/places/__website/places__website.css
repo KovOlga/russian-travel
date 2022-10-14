@@ -5,8 +5,14 @@
     align-content: flex-start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .places__website {
         padding-left: 16px;
     }
 }
+
+/* @media screen and (max-width: 320px) {
+    .places__website {
+        padding-left: 16px;
+    }
+} */

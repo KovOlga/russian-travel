@@ -1,5 +1,24 @@
-@media screen and (max-width: 320px) {
+.places__text {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    row-gap: 27px;
+}
+
+@media screen and (max-width: 768px) {
+    .places__text {
+        row-gap: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
     .places__text {
         padding: 0 16px;
     }
 }
+
+/* @media screen and (max-width: 320px) {
+    .places__text {
+        padding: 0 16px;
+    }
+} */

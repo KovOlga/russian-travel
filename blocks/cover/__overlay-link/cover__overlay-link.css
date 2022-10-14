@@ -29,15 +29,9 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 570px) {
     .cover__overlay-link {
-        padding-top: 60px;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .cover__overlay-link {
-        padding-top: 50px;
+        padding-top: 40px;
     }
 }
 
