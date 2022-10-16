@@ -3,7 +3,7 @@
     aspect-ratio: 29%;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 765px) {
     .header__logo {
         max-width: 142px;
     }

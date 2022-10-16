@@ -4,20 +4,14 @@
     /* outline: 1px solid red; */
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1100px) {
     .lead {
         max-width: 928px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1023px) {
     .lead {
         max-width: 768px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead {
-        max-width: 320px;
     }
 }

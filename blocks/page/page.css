@@ -15,7 +15,7 @@
     /* outline: 1px solid red; */
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 765px) {
     .page {
         padding-top: 16px;
     }

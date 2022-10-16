@@ -3,7 +3,7 @@
 }
 
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .page__section-header {
         margin-bottom: 48px;
     }

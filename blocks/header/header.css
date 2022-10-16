@@ -9,19 +9,13 @@
     /* outline: 1px solid red; */
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1023px) {
     .header {
         padding: 0 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
-    .header {
-        padding: 0 20px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media (max-width: 765px) {
     .header {
         padding: 0 16px;
     }
