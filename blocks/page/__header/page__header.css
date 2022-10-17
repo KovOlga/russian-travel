@@ -1,0 +1,28 @@
+.page__header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 48px 56px;
+}
+
+
+@media (max-width: 1024px) {
+    .page__header {
+        padding-bottom: 48px;
+    }
+}
+
+@media (max-width: 800px) {
+    .page__header {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 765px) {
+    .page__header {
+        padding: 16px 16px 48px;
+    }
+}

@@ -6,10 +6,12 @@
     text-align: right;
     color: white;
     box-sizing: border-box;
+    opacity: 1;
+    transition: opacity 0.3s linear;
 }
 
-.header__lang-link:first-of-type {
-    margin-right: 18px;
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 /* .header__lang-link:hover {

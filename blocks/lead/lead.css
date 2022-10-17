@@ -1,4 +1,5 @@
 .lead {
+    margin: 0 auto;
     max-width: 984px;
     box-sizing: border-box;
     /* outline: 1px solid red; */

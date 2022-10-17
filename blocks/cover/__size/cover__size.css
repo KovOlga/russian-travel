@@ -1,23 +1,23 @@
-.page__section-cover {
+.cover__size {
     max-width: 1184px;
     margin-bottom: 92px;
 }
 
 @media (max-width: 1024px) {
-    .page__section-cover {
+    .cover__size {
         max-width: 1024px;
     }
 }
 
 @media (max-width: 768px) {
-    .page__section-cover {
+    .cover__size {
         margin-bottom: 88px;
         max-width: 768px;
     }
 }
 
 @media (max-width: 320px) {
-    .page__section-cover {
+    .cover__size {
         margin-bottom: 64px;
     }
 }

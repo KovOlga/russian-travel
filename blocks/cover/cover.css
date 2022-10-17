@@ -2,6 +2,7 @@
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     box-sizing: border-box;
     /* outline: 1px solid red; */
 }
