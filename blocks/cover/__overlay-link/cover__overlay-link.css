@@ -13,6 +13,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 1184px;
+    margin-bottom: 92px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cover__overlay-link::before {
@@ -39,14 +43,23 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .cover__overlay-link {
+        max-width: 1024px;
+    }
+}
+
 @media (max-width: 768px) {
     .cover__overlay-link {
         min-height: 480px;
+        margin-bottom: 88px;
+        max-width: 768px;
     }
 }
 
 @media (max-width: 500px) {
     .cover__overlay-link {
         min-height: 200px;
+        margin-bottom: 64px;
     }
 }

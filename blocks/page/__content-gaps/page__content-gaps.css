@@ -1,0 +1,17 @@
+.page__content-gaps {
+    display: flex;
+    flex-direction: column;
+    gap: 92px 0;
+}
+
+@media (max-width: 768px) {
+    .page__content-gaps {
+        gap: 88px 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .page__content-gaps {
+        gap: 64px 0;
+    }
+}
